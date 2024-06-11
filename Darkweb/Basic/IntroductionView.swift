@@ -31,8 +31,17 @@ struct IntroductionView: View {
                     VStack(alignment: .leading, spacing: 15) {
                     
                         
+//
                         Text1(title: placeholderText)
-                        Text2(title1:title1 , title2:title2)
+                        
+                        
+                        Text2(title1:title1, title2:title2)
+                        Text2(title1:title1, title2:title2)
+                        Text2(title1:title1, title2:title2)
+                        
+                        
+                        Text3(title1: i3, title2: i2, title3: i3)
+                        Text3(title1: i3, title2: i2, title3: i3)
                         Text3(title1: i3, title2: i2, title3: i3)
 
                         

@@ -9,7 +9,15 @@ import SwiftUI
 
 struct BannerAdsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        // Bottom banner ad
+        HStack {
+            Text("Bottom Banner Ad")
+                .frame(maxWidth: .infinity)
+                .padding()
+                .background(Color.blue)
+                .foregroundColor(.white)
+        }
+        .frame(height: 50) 
     }
 }
 

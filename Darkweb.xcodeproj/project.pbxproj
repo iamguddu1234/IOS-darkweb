@@ -11,6 +11,53 @@
 		B2736C362C020A5500865217 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C352C020A5500865217 /* ContentView.swift */; };
 		B2736C382C020A5700865217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2736C372C020A5700865217 /* Assets.xcassets */; };
 		B2736C3B2C020A5700865217 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2736C3A2C020A5700865217 /* Preview Assets.xcassets */; };
+		B2736C422C020AB800865217 /* BasicHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C412C020AB800865217 /* BasicHomeView.swift */; };
+		B2736C442C020ACC00865217 /* IntermediateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C432C020ACC00865217 /* IntermediateView.swift */; };
+		B2736C462C020AE300865217 /* AdvanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C452C020AE300865217 /* AdvanceView.swift */; };
+		B2736C482C020B9D00865217 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C472C020B9D00865217 /* IntroductionView.swift */; };
+		B2736C4A2C020BB500865217 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C492C020BB500865217 /* HistoryView.swift */; };
+		B2736C4C2C020BC400865217 /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C4B2C020BC400865217 /* DownloadView.swift */; };
+		B2736C4E2C020BD600865217 /* InstallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C4D2C020BD600865217 /* InstallView.swift */; };
+		B2736C502C04A56C00865217 /* Text1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C4F2C04A56C00865217 /* Text1.swift */; };
+		B2736C522C04A61300865217 /* Text2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C512C04A61300865217 /* Text2.swift */; };
+		B2736C542C04AA7E00865217 /* Text3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C532C04AA7E00865217 /* Text3.swift */; };
+		B2736C562C04ACEA00865217 /* BannerAdsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C552C04ACEA00865217 /* BannerAdsView.swift */; };
+		B2736C5D2C074EC600865217 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B2736C5C2C074EC600865217 /* Lottie */; };
+		B2736C5F2C074EF300865217 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C5E2C074EF300865217 /* LottieView.swift */; };
+		B2736C622C075C7000865217 /* I1_Anonymity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C612C075C7000865217 /* I1_Anonymity.swift */; };
+		B2736C642C075C8A00865217 /* I2_How_To_access.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C632C075C8A00865217 /* I2_How_To_access.swift */; };
+		B2736C662C075CA200865217 /* I3_Cryptocurrencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C652C075CA200865217 /* I3_Cryptocurrencies.swift */; };
+		B2736C682C075CD100865217 /* I4_Cyber_security.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C672C075CD100865217 /* I4_Cyber_security.swift */; };
+		B2736C6A2C075CFC00865217 /* I5_Bitcoin_Mixers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C692C075CFC00865217 /* I5_Bitcoin_Mixers.swift */; };
+		B2736C6C2C075D0E00865217 /* I6_Communication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C6B2C075D0E00865217 /* I6_Communication.swift */; };
+		B2736C6E2C075D3E00865217 /* I7_Crypto_Tumbling.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C6D2C075D3E00865217 /* I7_Crypto_Tumbling.swift */; };
+		B2736C702C075D5D00865217 /* I8_Cyber_weapons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C6F2C075D5D00865217 /* I8_Cyber_weapons.swift */; };
+		B2736C722C075D9A00865217 /* I9_Digital_forensics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C712C075D9A00865217 /* I9_Digital_forensics.swift */; };
+		B2736C742C075DAC00865217 /* I10_Documentaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C732C075DAC00865217 /* I10_Documentaries.swift */; };
+		B2736C762C075DC000865217 /* I11_FakeID.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C752C075DC000865217 /* I11_FakeID.swift */; };
+		B2736C782C075DE000865217 /* I12_hacking_cybercrime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C772C075DE000865217 /* I12_hacking_cybercrime.swift */; };
+		B2736C7A2C075DF700865217 /* I13_Hacking_forums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C792C075DF700865217 /* I13_Hacking_forums.swift */; };
+		B2736C7C2C075E0A00865217 /* I14_Identity_theft.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C7B2C075E0A00865217 /* I14_Identity_theft.swift */; };
+		B2736C7E2C075E4400865217 /* B1_SearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C7D2C075E4400865217 /* B1_SearchEngine.swift */; };
+		B2736C802C075E5700865217 /* B2_TopEmailSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C7F2C075E5700865217 /* B2_TopEmailSite.swift */; };
+		B2736C822C075E6900865217 /* B3_TipsnTricks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C812C075E6900865217 /* B3_TipsnTricks.swift */; };
+		B2736C842C075E7600865217 /* B4_ProsNCons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C832C075E7600865217 /* B4_ProsNCons.swift */; };
+		B2736C862C075E8400865217 /* B5_DeepWebSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C852C075E8400865217 /* B5_DeepWebSite.swift */; };
+		B2736C882C075E9200865217 /* B6_Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C872C075E9200865217 /* B6_Fact.swift */; };
+		B2736C8A2C075EB200865217 /* A1_LawEnf.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C892C075EB200865217 /* A1_LawEnf.swift */; };
+		B2736C8C2C075ECD00865217 /* A2_Malware_Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C8B2C075ECD00865217 /* A2_Malware_Market.swift */; };
+		B2736C8E2C075EE000865217 /* A3_Marketplaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C8D2C075EE000865217 /* A3_Marketplaces.swift */; };
+		B2736C902C075EF000865217 /* A4_Myths.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C8F2C075EF000865217 /* A4_Myths.swift */; };
+		B2736C922C075F0400865217 /* A5_Political.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C912C075F0400865217 /* A5_Political.swift */; };
+		B2736C942C075F1500865217 /* A6_privacy_coins.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C932C075F1500865217 /* A6_privacy_coins.swift */; };
+		B2736C962C075F2700865217 /* A7_privacy_tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C952C075F2700865217 /* A7_privacy_tools.swift */; };
+		B2736C982C075F4100865217 /* A8_RedRooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C972C075F4100865217 /* A8_RedRooms.swift */; };
+		B2736C9A2C075F5B00865217 /* A9_ScamnScammers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C992C075F5B00865217 /* A9_ScamnScammers.swift */; };
+		B2736C9C2C075F8600865217 /* A10_Searchengines.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C9B2C075F8600865217 /* A10_Searchengines.swift */; };
+		B2736C9E2C075FA200865217 /* A11_ThreatsNRisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C9D2C075FA200865217 /* A11_ThreatsNRisk.swift */; };
+		B2736CA02C075FB700865217 /* A12_SafeontheDarkweb.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736C9F2C075FB700865217 /* A12_SafeontheDarkweb.swift */; };
+		B2736CA22C075FC900865217 /* A13_Vpn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736CA12C075FC900865217 /* A13_Vpn.swift */; };
+		B2736CA42C075FDB00865217 /* A14_Tornetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2736CA32C075FDB00865217 /* A14_Tornetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +66,52 @@
 		B2736C352C020A5500865217 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2736C372C020A5700865217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2736C3A2C020A5700865217 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2736C412C020AB800865217 /* BasicHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicHomeView.swift; sourceTree = "<group>"; };
+		B2736C432C020ACC00865217 /* IntermediateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateView.swift; sourceTree = "<group>"; };
+		B2736C452C020AE300865217 /* AdvanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceView.swift; sourceTree = "<group>"; };
+		B2736C472C020B9D00865217 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		B2736C492C020BB500865217 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B2736C4B2C020BC400865217 /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
+		B2736C4D2C020BD600865217 /* InstallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallView.swift; sourceTree = "<group>"; };
+		B2736C4F2C04A56C00865217 /* Text1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text1.swift; sourceTree = "<group>"; };
+		B2736C512C04A61300865217 /* Text2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2.swift; sourceTree = "<group>"; };
+		B2736C532C04AA7E00865217 /* Text3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text3.swift; sourceTree = "<group>"; };
+		B2736C552C04ACEA00865217 /* BannerAdsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdsView.swift; sourceTree = "<group>"; };
+		B2736C5E2C074EF300865217 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		B2736C612C075C7000865217 /* I1_Anonymity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I1_Anonymity.swift; sourceTree = "<group>"; };
+		B2736C632C075C8A00865217 /* I2_How_To_access.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I2_How_To_access.swift; sourceTree = "<group>"; };
+		B2736C652C075CA200865217 /* I3_Cryptocurrencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I3_Cryptocurrencies.swift; sourceTree = "<group>"; };
+		B2736C672C075CD100865217 /* I4_Cyber_security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I4_Cyber_security.swift; sourceTree = "<group>"; };
+		B2736C692C075CFC00865217 /* I5_Bitcoin_Mixers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I5_Bitcoin_Mixers.swift; sourceTree = "<group>"; };
+		B2736C6B2C075D0E00865217 /* I6_Communication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I6_Communication.swift; sourceTree = "<group>"; };
+		B2736C6D2C075D3E00865217 /* I7_Crypto_Tumbling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I7_Crypto_Tumbling.swift; sourceTree = "<group>"; };
+		B2736C6F2C075D5D00865217 /* I8_Cyber_weapons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I8_Cyber_weapons.swift; sourceTree = "<group>"; };
+		B2736C712C075D9A00865217 /* I9_Digital_forensics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I9_Digital_forensics.swift; sourceTree = "<group>"; };
+		B2736C732C075DAC00865217 /* I10_Documentaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I10_Documentaries.swift; sourceTree = "<group>"; };
+		B2736C752C075DC000865217 /* I11_FakeID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I11_FakeID.swift; sourceTree = "<group>"; };
+		B2736C772C075DE000865217 /* I12_hacking_cybercrime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I12_hacking_cybercrime.swift; sourceTree = "<group>"; };
+		B2736C792C075DF700865217 /* I13_Hacking_forums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I13_Hacking_forums.swift; sourceTree = "<group>"; };
+		B2736C7B2C075E0A00865217 /* I14_Identity_theft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I14_Identity_theft.swift; sourceTree = "<group>"; };
+		B2736C7D2C075E4400865217 /* B1_SearchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B1_SearchEngine.swift; sourceTree = "<group>"; };
+		B2736C7F2C075E5700865217 /* B2_TopEmailSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2_TopEmailSite.swift; sourceTree = "<group>"; };
+		B2736C812C075E6900865217 /* B3_TipsnTricks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B3_TipsnTricks.swift; sourceTree = "<group>"; };
+		B2736C832C075E7600865217 /* B4_ProsNCons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B4_ProsNCons.swift; sourceTree = "<group>"; };
+		B2736C852C075E8400865217 /* B5_DeepWebSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B5_DeepWebSite.swift; sourceTree = "<group>"; };
+		B2736C872C075E9200865217 /* B6_Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B6_Fact.swift; sourceTree = "<group>"; };
+		B2736C892C075EB200865217 /* A1_LawEnf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1_LawEnf.swift; sourceTree = "<group>"; };
+		B2736C8B2C075ECD00865217 /* A2_Malware_Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A2_Malware_Market.swift; sourceTree = "<group>"; };
+		B2736C8D2C075EE000865217 /* A3_Marketplaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A3_Marketplaces.swift; sourceTree = "<group>"; };
+		B2736C8F2C075EF000865217 /* A4_Myths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A4_Myths.swift; sourceTree = "<group>"; };
+		B2736C912C075F0400865217 /* A5_Political.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A5_Political.swift; sourceTree = "<group>"; };
+		B2736C932C075F1500865217 /* A6_privacy_coins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A6_privacy_coins.swift; sourceTree = "<group>"; };
+		B2736C952C075F2700865217 /* A7_privacy_tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A7_privacy_tools.swift; sourceTree = "<group>"; };
+		B2736C972C075F4100865217 /* A8_RedRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A8_RedRooms.swift; sourceTree = "<group>"; };
+		B2736C992C075F5B00865217 /* A9_ScamnScammers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A9_ScamnScammers.swift; sourceTree = "<group>"; };
+		B2736C9B2C075F8600865217 /* A10_Searchengines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A10_Searchengines.swift; sourceTree = "<group>"; };
+		B2736C9D2C075FA200865217 /* A11_ThreatsNRisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A11_ThreatsNRisk.swift; sourceTree = "<group>"; };
+		B2736C9F2C075FB700865217 /* A12_SafeontheDarkweb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A12_SafeontheDarkweb.swift; sourceTree = "<group>"; };
+		B2736CA12C075FC900865217 /* A13_Vpn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A13_Vpn.swift; sourceTree = "<group>"; };
+		B2736CA32C075FDB00865217 /* A14_Tornetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A14_Tornetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2736C5D2C074EC600865217 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +145,16 @@
 		B2736C322C020A5500865217 /* Darkweb */ = {
 			isa = PBXGroup;
 			children = (
+				B2736C602C07542500865217 /* Lottie */,
 				B2736C332C020A5500865217 /* DarkwebApp.swift */,
 				B2736C352C020A5500865217 /* ContentView.swift */,
 				B2736C372C020A5700865217 /* Assets.xcassets */,
 				B2736C392C020A5700865217 /* Preview Content */,
+				B2736C582C04AEEC00865217 /* Basic */,
+				B2736C592C04AEF800865217 /* Intermediate */,
+				B2736C5A2C04AF0300865217 /* Advance */,
+				B2736C572C04AEB900865217 /* Components */,
+				B2736C552C04ACEA00865217 /* BannerAdsView.swift */,
 			);
 			path = Darkweb;
 			sourceTree = "<group>";
@@ -65,6 +165,86 @@
 				B2736C3A2C020A5700865217 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2736C572C04AEB900865217 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B2736C4F2C04A56C00865217 /* Text1.swift */,
+				B2736C512C04A61300865217 /* Text2.swift */,
+				B2736C532C04AA7E00865217 /* Text3.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B2736C582C04AEEC00865217 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				B2736C412C020AB800865217 /* BasicHomeView.swift */,
+				B2736C472C020B9D00865217 /* IntroductionView.swift */,
+				B2736C492C020BB500865217 /* HistoryView.swift */,
+				B2736C4B2C020BC400865217 /* DownloadView.swift */,
+				B2736C4D2C020BD600865217 /* InstallView.swift */,
+				B2736C7D2C075E4400865217 /* B1_SearchEngine.swift */,
+				B2736C7F2C075E5700865217 /* B2_TopEmailSite.swift */,
+				B2736C812C075E6900865217 /* B3_TipsnTricks.swift */,
+				B2736C832C075E7600865217 /* B4_ProsNCons.swift */,
+				B2736C852C075E8400865217 /* B5_DeepWebSite.swift */,
+				B2736C872C075E9200865217 /* B6_Fact.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		B2736C592C04AEF800865217 /* Intermediate */ = {
+			isa = PBXGroup;
+			children = (
+				B2736C432C020ACC00865217 /* IntermediateView.swift */,
+				B2736C612C075C7000865217 /* I1_Anonymity.swift */,
+				B2736C632C075C8A00865217 /* I2_How_To_access.swift */,
+				B2736C652C075CA200865217 /* I3_Cryptocurrencies.swift */,
+				B2736C672C075CD100865217 /* I4_Cyber_security.swift */,
+				B2736C692C075CFC00865217 /* I5_Bitcoin_Mixers.swift */,
+				B2736C6B2C075D0E00865217 /* I6_Communication.swift */,
+				B2736C6D2C075D3E00865217 /* I7_Crypto_Tumbling.swift */,
+				B2736C6F2C075D5D00865217 /* I8_Cyber_weapons.swift */,
+				B2736C712C075D9A00865217 /* I9_Digital_forensics.swift */,
+				B2736C732C075DAC00865217 /* I10_Documentaries.swift */,
+				B2736C752C075DC000865217 /* I11_FakeID.swift */,
+				B2736C772C075DE000865217 /* I12_hacking_cybercrime.swift */,
+				B2736C792C075DF700865217 /* I13_Hacking_forums.swift */,
+				B2736C7B2C075E0A00865217 /* I14_Identity_theft.swift */,
+			);
+			path = Intermediate;
+			sourceTree = "<group>";
+		};
+		B2736C5A2C04AF0300865217 /* Advance */ = {
+			isa = PBXGroup;
+			children = (
+				B2736C452C020AE300865217 /* AdvanceView.swift */,
+				B2736C892C075EB200865217 /* A1_LawEnf.swift */,
+				B2736C8B2C075ECD00865217 /* A2_Malware_Market.swift */,
+				B2736C8D2C075EE000865217 /* A3_Marketplaces.swift */,
+				B2736C8F2C075EF000865217 /* A4_Myths.swift */,
+				B2736C912C075F0400865217 /* A5_Political.swift */,
+				B2736C932C075F1500865217 /* A6_privacy_coins.swift */,
+				B2736C952C075F2700865217 /* A7_privacy_tools.swift */,
+				B2736C972C075F4100865217 /* A8_RedRooms.swift */,
+				B2736C992C075F5B00865217 /* A9_ScamnScammers.swift */,
+				B2736C9B2C075F8600865217 /* A10_Searchengines.swift */,
+				B2736C9D2C075FA200865217 /* A11_ThreatsNRisk.swift */,
+				B2736C9F2C075FB700865217 /* A12_SafeontheDarkweb.swift */,
+				B2736CA12C075FC900865217 /* A13_Vpn.swift */,
+				B2736CA32C075FDB00865217 /* A14_Tornetwork.swift */,
+			);
+			path = Advance;
+			sourceTree = "<group>";
+		};
+		B2736C602C07542500865217 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				B2736C5E2C074EF300865217 /* LottieView.swift */,
+			);
+			path = Lottie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +263,9 @@
 			dependencies = (
 			);
 			name = Darkweb;
+			packageProductDependencies = (
+				B2736C5C2C074EC600865217 /* Lottie */,
+			);
 			productName = Darkweb;
 			productReference = B2736C302C020A5500865217 /* Darkweb.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +294,9 @@
 				Base,
 			);
 			mainGroup = B2736C272C020A5500865217;
+			packageReferences = (
+				B2736C5B2C074EC600865217 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = B2736C312C020A5500865217 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +323,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2736C8C2C075ECD00865217 /* A2_Malware_Market.swift in Sources */,
+				B2736C4C2C020BC400865217 /* DownloadView.swift in Sources */,
+				B2736C902C075EF000865217 /* A4_Myths.swift in Sources */,
+				B2736C762C075DC000865217 /* I11_FakeID.swift in Sources */,
+				B2736C722C075D9A00865217 /* I9_Digital_forensics.swift in Sources */,
+				B2736C4E2C020BD600865217 /* InstallView.swift in Sources */,
+				B2736C542C04AA7E00865217 /* Text3.swift in Sources */,
+				B2736C6E2C075D3E00865217 /* I7_Crypto_Tumbling.swift in Sources */,
+				B2736C522C04A61300865217 /* Text2.swift in Sources */,
+				B2736C8E2C075EE000865217 /* A3_Marketplaces.swift in Sources */,
+				B2736C8A2C075EB200865217 /* A1_LawEnf.swift in Sources */,
+				B2736C842C075E7600865217 /* B4_ProsNCons.swift in Sources */,
+				B2736C962C075F2700865217 /* A7_privacy_tools.swift in Sources */,
+				B2736C4A2C020BB500865217 /* HistoryView.swift in Sources */,
+				B2736C7C2C075E0A00865217 /* I14_Identity_theft.swift in Sources */,
+				B2736C922C075F0400865217 /* A5_Political.swift in Sources */,
+				B2736C802C075E5700865217 /* B2_TopEmailSite.swift in Sources */,
+				B2736C942C075F1500865217 /* A6_privacy_coins.swift in Sources */,
+				B2736C9C2C075F8600865217 /* A10_Searchengines.swift in Sources */,
+				B2736CA42C075FDB00865217 /* A14_Tornetwork.swift in Sources */,
 				B2736C362C020A5500865217 /* ContentView.swift in Sources */,
+				B2736C502C04A56C00865217 /* Text1.swift in Sources */,
+				B2736C7A2C075DF700865217 /* I13_Hacking_forums.swift in Sources */,
+				B2736C462C020AE300865217 /* AdvanceView.swift in Sources */,
+				B2736C622C075C7000865217 /* I1_Anonymity.swift in Sources */,
+				B2736C422C020AB800865217 /* BasicHomeView.swift in Sources */,
 				B2736C342C020A5500865217 /* DarkwebApp.swift in Sources */,
+				B2736C6A2C075CFC00865217 /* I5_Bitcoin_Mixers.swift in Sources */,
+				B2736C662C075CA200865217 /* I3_Cryptocurrencies.swift in Sources */,
+				B2736C9A2C075F5B00865217 /* A9_ScamnScammers.swift in Sources */,
+				B2736C6C2C075D0E00865217 /* I6_Communication.swift in Sources */,
+				B2736C562C04ACEA00865217 /* BannerAdsView.swift in Sources */,
+				B2736C702C075D5D00865217 /* I8_Cyber_weapons.swift in Sources */,
+				B2736CA22C075FC900865217 /* A13_Vpn.swift in Sources */,
+				B2736C642C075C8A00865217 /* I2_How_To_access.swift in Sources */,
+				B2736C682C075CD100865217 /* I4_Cyber_security.swift in Sources */,
+				B2736C882C075E9200865217 /* B6_Fact.swift in Sources */,
+				B2736C5F2C074EF300865217 /* LottieView.swift in Sources */,
+				B2736C862C075E8400865217 /* B5_DeepWebSite.swift in Sources */,
+				B2736C9E2C075FA200865217 /* A11_ThreatsNRisk.swift in Sources */,
+				B2736C482C020B9D00865217 /* IntroductionView.swift in Sources */,
+				B2736CA02C075FB700865217 /* A12_SafeontheDarkweb.swift in Sources */,
+				B2736C822C075E6900865217 /* B3_TipsnTricks.swift in Sources */,
+				B2736C742C075DAC00865217 /* I10_Documentaries.swift in Sources */,
+				B2736C442C020ACC00865217 /* IntermediateView.swift in Sources */,
+				B2736C7E2C075E4400865217 /* B1_SearchEngine.swift in Sources */,
+				B2736C782C075DE000865217 /* I12_hacking_cybercrime.swift in Sources */,
+				B2736C982C075F4100865217 /* A8_RedRooms.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +576,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B2736C5B2C074EC600865217 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B2736C5C2C074EC600865217 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2736C5B2C074EC600865217 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B2736C282C020A5500865217 /* Project object */;
 }

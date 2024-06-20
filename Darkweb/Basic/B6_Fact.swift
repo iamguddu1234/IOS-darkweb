@@ -8,22 +8,61 @@
 import SwiftUI
 
 
-let a1 = "THis is the introductuo title"
 
-
-let a2 = "CTR + l"
-let a3 = "this is the demo commands"
 
 
 
 struct B6_Fact: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color.white.ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 5) {
+                    
+                        
+                        ForEach(items, id: \.id) { item in
+                            FactView(item: item)
+                        }
+                        
+
+                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
         
-       
-        Text1(title: a1)
-        
-        Text2(title1: a2, title2: a3)
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
 
 
         

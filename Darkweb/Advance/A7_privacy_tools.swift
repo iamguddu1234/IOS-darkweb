@@ -199,7 +199,121 @@ struct A7_privacy_tools: View {
         Remember that privacy tools and practices are only effective when used correctly and in conjunction with responsible online behavior. Staying informed about evolving threats, regularly updating software and tools, and exercising caution when interacting on the dark web are vital for maintaining privacy and security.
         """
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        
+                        Head(title: n1)
+
+                                Stext(title: n2)
+
+                                Text2(title1: n3_title, title2: n3)
+
+                                Text2(title1: n4_title, title2: n4)
+
+                                Text2(title1: n5_title, title2: n5)
+
+                                Text2(title1: n6_title, title2: n6)
+
+                                Text2(title1: n7_title, title2: n7)
+
+                                Text2(title1: n8_title, title2: n8)
+
+                                Text2(title1: n9_title, title2: n9)
+
+                                Text2(title1: n13_title, title2: n13)
+
+                                Text2(title1: n14_title, title2: n14)
+
+                                Text2(title1: n15_title, title2: n15)
+
+                                Text2(title1: n16_title, title2: n16)
+
+                                Text2(title1: n17_title, title2: n17)
+
+                                Text2(title1: n18_title, title2: n18)
+
+                                Text2(title1: n19_title, title2: n19)
+
+                                Text2(title1: n21_title, title2: n21)
+
+                                Text2(title1: n22_title, title2: n22)
+
+                                Text2(title1: n23_title, title2: n23)
+
+                                Text2(title1: n24_title, title2: n24)
+
+                                Text2(title1: n25_title, title2: n25)
+
+                                Text2(title1: n26_title, title2: n26)
+
+                                Text2(title1: n27_title, title2: n27)
+
+                                Text2(title1: n28_title, title2: n28)
+
+                                Text2(title1: n30_title, title2: n30)
+
+                                Text2(title1: n31_title, title2: n31)
+
+                                Text2(title1: n32_title, title2: n32)
+
+                                Text2(title1: n33_title, title2: n33)
+
+                                Text2(title1: n34_title, title2: n34)
+
+
+                                Text2(title1: n35_title, title2: n35)
+
+
+                                Text2(title1: n36_title, title2: n36)
+
+
+                                Text2(title1: n37_title, title2: n37)
+
+                                Stext(title: n38)
+
+                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

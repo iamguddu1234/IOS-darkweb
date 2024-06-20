@@ -292,7 +292,134 @@ struct A4_Myths: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        
+
+                                       
+
+
+                        Head(title: k1)
+
+                               Text2(title1: k2, title2: k2_desc)
+
+                               Text2(title1: k3, title2: k3_desc)
+
+                               Text2(title1: k4, title2: k4_desc)
+
+                               Text2(title1: k5, title2: k5_desc)
+
+                               Text2(title1: k6, title2: k6_desc)
+
+                               Text2(title1: k7, title2: k7_desc)
+
+                               Text2(title1: k8, title2: k8_desc)
+
+                               Text2(title1: k9, title2: k9_desc)
+
+                               Text2(title1: k10, title2: k10_desc)
+
+                               Text2(title1: k11, title2: k11_desc)
+
+                               Text2(title1: k12, title2: k12_desc)
+
+                               Text2(title1: k13, title2: k13_desc)
+
+                               Text2(title1: k14, title2: k14_desc)
+
+                               Text2(title1: k15, title2: k15_desc)
+
+                               Text2(title1: k16, title2: k16_desc)
+
+                               Text2(title1: k17, title2: k17_desc)
+
+                               Text2(title1: k18, title2: k18_desc)
+
+                               Text2(title1: k19, title2: k19_desc)
+
+                               Text2(title1: k20, title2: k20_desc)
+
+                               Text2(title1: k21, title2: k21_desc)
+
+                               Text2(title1: k22, title2: k22_desc)
+
+                               Text2(title1: k23, title2: k23_desc)
+
+                               Text2(title1: k24, title2: k24_desc)
+
+                               Text2(title1: k25, title2: k25_desc)
+
+                               Text2(title1: k26, title2: k26_desc)
+
+                               Text2(title1: k27, title2: k27_desc)
+
+                               Text2(title1: k28, title2: k28_desc)
+
+                               Text2(title1: k29, title2: k29_desc)
+
+                               Text2(title1: k30, title2: k30_desc)
+
+                               Text2(title1: k31, title2: k31_desc)
+
+                               Text2(title1: k32, title2: k32_desc)
+
+                               Text2(title1: k33, title2: k33_desc)
+
+                               Text2(title1: k34, title2: k34_desc)
+
+                               Text2(title1: k35, title2: k35_desc)
+
+                               Text2(title1: k36, title2: k36_desc)
+
+                               Text2(title1: k37, title2: k37_desc)
+
+                               Text2(title1: k38, title2: k38_desc)
+
+                               Text2(title1: k39, title2: k39_desc)
+
+                               Text2(title1: k40, title2: k40_desc)
+
+                               Stext(title: k41)
+                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

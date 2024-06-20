@@ -89,7 +89,75 @@ struct A11_ThreatsNRisk: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        
+
+                                       
+                        Head(title: g1)
+
+                               Stext(title: g2)
+
+                               Text2(title1: g3, title2: g3_desc)
+
+                               Text2(title1: g4, title2: g4_desc)
+
+                               Text2(title1: g5, title2: g5_desc)
+
+                               Text2(title1: g6, title2: g6_desc)
+
+                               Text2(title1: g7, title2: g7_desc)
+
+                               Text2(title1: g8, title2: g8_desc)
+
+                               Text2(title1: g9, title2: g9_desc)
+
+                               Text2(title1: g10, title2: g10_desc)
+
+                               Text2(title1: g11, title2: g11_desc)
+
+                               Text2(title1: g12, title2: g12_desc)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

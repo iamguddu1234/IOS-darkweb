@@ -67,7 +67,71 @@ struct I5_Bitcoin_Mixers: View {
 
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        
+
+                        Head(title: v1)
+
+                               Stext(title: v2)
+
+                               Text2(title1: v3_title, title2: v3_description)
+
+                               Text2(title1: v4_title, title2: v4_description)
+
+                               Text2(title1: v5_title, title2: v5_description)
+
+                               Text2(title1: v6_title, title2: v6_description)
+
+                               Text2(title1: v7_title, title2: v7_description)
+
+                               Text2(title1: v8_title, title2: v8_description)
+
+                               Stext(title: v9)
+
+                               Stext(title: v10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

@@ -57,56 +57,130 @@ struct I4_Cyber_security: View {
     """
 
     let h9_title = """
-    a. Security Awareness:
+a. Security Awareness:
 """
     let h9 = """
-    Educate individuals and employees about the risks associated with the dark web, including phishing attempts, social engineering, and the importance of strong passwords and two-factor authentication.
-    """
+Educate individuals and employees about the risks associated with the dark web, including phishing attempts, social engineering, and the importance of strong passwords and two-factor authentication.
+"""
 
     let h10_title = """
-    b. Robust Cyber Hygiene:
+b. Robust Cyber Hygiene:
 """
     let h10 = """
-    Maintain strong cybersecurity practices, such as keeping software and systems up to date, using reputable security software, and regularly backing up data.
-    """
+Maintain strong cybersecurity practices, such as keeping software and systems up to date, using reputable security software, and regularly backing up data.
+"""
 
     let h11_title = """
-    c. Dark Web Monitoring:
+c. Dark Web Monitoring:
 """
     let h11 = """
-    Consider leveraging dark web monitoring services that scan for mentions of your organization\'s sensitive information on the dark web, enabling early detection and response to potential data breaches.
-    """
+Consider leveraging dark web monitoring services that scan for mentions of your organization\'s sensitive information on the dark web, enabling early detection and response to potential data breaches.
+"""
 
     let h12_title = """
-    d. Threat Intelligence:
+d. Threat Intelligence:
 """
     let h12 = """
-    Stay informed about emerging threats and trends on the dark web by utilizing threat intelligence sources. This can help organizations proactively identify potential risks and take appropriate measures.
-    """
+Stay informed about emerging threats and trends on the dark web by utilizing threat intelligence sources. This can help organizations proactively identify potential risks and take appropriate measures.
+"""
 
     let h13_title = """
-    e. Employee Training:
+e. Employee Training:
 """
     let h13 = """
-    Train employees on recognizing and reporting suspicious activities, such as phishing emails or attempts to solicit sensitive information. This helps mitigate the risk of insider threats originating from the dark web.
-    """
+Train employees on recognizing and reporting suspicious activities, such as phishing emails or attempts to solicit sensitive information. This helps mitigate the risk of insider threats originating from the dark web.
+"""
 
     let h14_title = """
-    f. Incident Response Planning:
+f. Incident Response Planning:
 """
     let h14 = """
-    Develop a comprehensive incident response plan that outlines procedures for handling potential data breaches, including communication, containment, and recovery strategies.
-    """
+Develop a comprehensive incident response plan that outlines procedures for handling potential data breaches, including communication, containment, and recovery strategies.
+"""
 
     let h15_title = """
-    g. Collaboration and Information Sharing:
+g. Collaboration and Information Sharing:
 """
     let h15 = """
-    Engage in partnerships and information sharing initiatives with industry peers, law enforcement agencies, and security communities to collectively combat dark web threats and exchange actionable intelligence.
-    """
+Engage in partnerships and information sharing initiatives with industry peers, law enforcement agencies, and security communities to collectively combat dark web threats and exchange actionable intelligence.
+"""
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        
+                        Head(title: h1)
+
+                                Stext(title: h2)
+
+                                Text2(title1: h3_title, title2: h3)
+
+                                Text2(title1: h4_title, title2: h4)
+
+                                Text2(title1: h5_title, title2: h5)
+
+                                Text2(title1: h6_title, title2: h6)
+
+                                Text2(title1: h7_title, title2: h7)
+
+                                Head(title: h8_title)
+
+                                Text2(title1: h9_title, title2: h9)
+
+                                Text2(title1: h10_title, title2: h10)
+
+                                Text2(title1: h11_title, title2: h11)
+
+                                Text2(title1: h12_title, title2: h12)
+
+                                Text2(title1: h13_title, title2: h13)
+
+                                Text2(title1: h14_title, title2: h14)
+
+                                Text2(title1: h15_title, title2: h15)
+                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

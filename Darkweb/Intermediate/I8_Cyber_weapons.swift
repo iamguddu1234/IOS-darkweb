@@ -15,7 +15,7 @@ struct I8_Cyber_weapons: View {
     """
 
     let w2 = """
-    The trade and development of cyber weapons, including zero-day exploits and hacking tools, is a concerning aspect of the digital landscape. While I can provide an overview of this topic, it\'s important to note that discussing specific techniques, tools, or illegal activities is against OpenAI\'s use case policy. Nevertheless, I can provide a general understanding of the subject:
+The trade and development of cyber weapons, including zero-day exploits and hacking tools, is a concerning aspect of the digital landscape. While I can provide an overview of this topic, it\'s important to note that discussing specific techniques, tools, or illegal activities is against OpenAI\'s use case policy. Nevertheless, I can provide a general understanding of the subject:
 """
 
     let w3_title = """
@@ -72,7 +72,73 @@ struct I8_Cyber_weapons: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        
+
+                                       
+
+                        Head(title: w1)
+
+                        Stext(title: w2)
+
+                        Text2(title1: w3_title, title2: w3_description)
+
+                        Text2(title1: w4_title, title2: w4_description)
+
+                        Text2(title1: w5_title, title2: w5_description)
+
+                        Text2(title1: w6_title, title2: w6_description)
+
+                        Text2(title1: w7_title, title2: w7_description)
+
+                        Text2(title1: w8_title, title2: w8_description)
+
+                        Text2(title1: w9_title, title2: w9_description)
+
+                        Stext(title: w10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

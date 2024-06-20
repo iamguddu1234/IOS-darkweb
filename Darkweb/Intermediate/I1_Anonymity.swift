@@ -47,7 +47,6 @@ struct I1_Anonymity: View {
 
         let d7 = """
         5. Avoid Personal Information
-        
         """
         let d7_desc = """
         Refrain from sharing any personal information or identifiable details while on the dark web. Use pseudonyms or anonymous usernames instead of your real name and avoid providing any personally identifiable information that could be linked back to you.
@@ -192,43 +191,104 @@ struct I1_Anonymity: View {
 
     
     var body: some View {
-        ScrollView(.vertical, showsIndicators: false) {
-            VStack{
-                
-                Text1(title: d1)
-                
-                Text1(title: d2)
-                
-                
-                Text2(title1: d3, title2: d3_desc)
-                Text2(title1: d4, title2: d3_desc)
-                Text2(title1: d5, title2: d3_desc)
-                Text2(title1: d6, title2: d3_desc)
-                Text2(title1: d7, title2: d3_desc)
-                Text2(title1: d8, title2: d3_desc)
-                Text2(title1: d9, title2: d3_desc)
-                Text2(title1: d10, title2: d3_desc)
-                Text2(title1: d11, title2: d3_desc)
-                Text2(title1: d12, title2: d3_desc)
-                Text2(title1: d13, title2: d3_desc)
-                Text2(title1: d14, title2: d3_desc)
-        
-                Text2(title1: d17, title2: d3_desc)
-                Text2(title1: d18, title2: d3_desc)
-                Text2(title1: d19, title2: d3_desc)
-                Text2(title1: d20, title2: d3_desc)
-                Text2(title1: d21, title2: d3_desc)
-                Text2(title1: d22, title2: d3_desc)
-                Text2(title1: d23, title2: d3_desc)
-                Text2(title1: d24, title2: d3_desc)
-                Text2(title1: d25, title2: d3_desc)
-                Text2(title1: d26, title2: d3_desc)
-                Text2(title1: d27, title2: d3_desc)
-                Text2(title1: d28, title2: d3_desc)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
 
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        Head(title: d1)
+
+                                       Stext(title: d2)
+
+                                       Text2(title1: d3, title2: d3_desc)
+
+                                       Text2(title1: d4, title2: d4_desc)
+
+                                       Text2(title1: d5, title2: d5_desc)
+
+                                       Text2(title1: d6, title2: d6_desc)
+
+                                       Text2(title1: d7, title2: d7_desc)
+
+                                       Text2(title1: d8, title2: d8_desc)
+
+                                       Text2(title1: d9, title2: d9_desc)
+
+                                       Text2(title1: d10, title2: d10_desc)
+
+                                       Text2(title1: d11, title2: d11_desc)
+
+                                       Text2(title1: d12, title2: d12_desc)
+
+                                       Text2(title1: d13, title2: d13_desc)
+
+                                       Text2(title1: d14, title2: d14_desc)
+
+                                       Text2(title1: d17, title2: d17_desc)
+
+                                       Text2(title1: d18, title2: d18_desc)
+
+                                       Text2(title1: d19, title2: d19_desc)
+
+                                       Text2(title1: d20, title2: d20_desc)
+
+                                       Text2(title1: d21, title2: d21_desc)
+
+                                       Text2(title1: d22, title2: d22_desc)
+
+                                       Text2(title1: d23, title2: d23_desc)
+
+                                       Text2(title1: d24, title2: d24_desc)
+
+                                       Text2(title1: d25, title2: d25_desc)
+
+                                       Text2(title1: d26, title2: d26_desc)
+
+                                       Text2(title1: d27, title2: d27_desc)
+
+                                       Text2(title1: d28, title2: d28_desc)
+
+                                       Stext(title: d29)
+
+
+                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
                 
+                Spacer()
                 
-                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
             }
         }
     }

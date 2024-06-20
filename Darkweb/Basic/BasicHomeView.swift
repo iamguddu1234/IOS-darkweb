@@ -66,22 +66,28 @@ struct ListViewB1: View {
 
     var body: some View {
         List {
-            ForEach(["Introduction", "What is Deep Web?", "Download", "Install"], id: \.self) { item in
-                NavigationLink(destination: destinationView(for: item)
-                                .onAppear { showTabBar = false }
-                    .navigationTitle(item)) {
-
-                    CardView(item: item)
-                        .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
-                }
-            }
-        }
-        .onAppear {
-            showTabBar = true // Ensure tab bar is shown when view appears
-        }
-        .scrollDisabled(true)
-    }
-
+                   ForEach(["Introduction", "What is Deep Web?", "Download", "Install"], id: \.self) { item in
+                       if item == "Download" {
+                           NavigationLink(destination: DownloadView()) {
+                               CardView(item: item)
+                                   .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                           }
+                       } else {
+                           NavigationLink(destination: destinationView(for: item)
+                                           .onAppear { showTabBar = false }
+                               .navigationTitle(item)) {
+                               CardView(item: item)
+                                   .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                           }
+                       }
+                   }
+               }
+               .onAppear {
+                   showTabBar = true // Ensure tab bar is shown when view appears
+               }
+               .scrollDisabled(true)
+           }
+    
     func destinationView(for item: String) -> some View {
         switch item {
         case "Introduction":

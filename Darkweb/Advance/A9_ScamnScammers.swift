@@ -113,7 +113,91 @@ struct A9_ScamnScammers: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        
+
+                        Head(title: i1)
+
+                               Stext(title: i2)
+
+                               Text2(title1: i3_title, title2: i3)
+
+                               Text2(title1: i4_title, title2: i4)
+
+                               Text2(title1: i5_title, title2: i5)
+
+                               Text2(title1: i6_title, title2: i6)
+
+                               Text2(title1: i7_title, title2: i7)
+
+                               Text2(title1: i8_title, title2: i8)
+
+                               Text2(title1: i9_title, title2: i9)
+
+                            
+                               Text2(title1: i11_title, title2: i11)
+
+                               Text2(title1: i12_title, title2: i12)
+
+                               Text2(title1: i13_title, title2: i13)
+
+                               Text2(title1: i14_title, title2: i14)
+
+                               Text2(title1: i15_title, title2: i15)
+
+                               Text2(title1: i16_title, title2: i16)
+
+                               Text2(title1: i17_title, title2: i17)
+
+                               Text2(title1: i18_title, title2: i18)
+
+                               Text2(title1: i19_title, title2: i19)
+                               
+
+                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

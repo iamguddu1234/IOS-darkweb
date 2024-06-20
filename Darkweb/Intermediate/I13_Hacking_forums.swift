@@ -119,7 +119,83 @@ struct I13_Hacking_forums: View {
 
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        Head(title: t1)
+
+                              Stext(title: t2)
+
+                              Text2(title1: t3_title, title2: t3_description)
+
+                              Text2(title1: t4_title, title2: t4_description)
+
+                              Text2(title1: t5_title, title2: t5_description)
+
+                              Text2(title1: t6_title, title2: t6_description)
+
+                              Text2(title1: t7_title, title2: t7_description)
+
+                              Text2(title1: t8_title, title2: t8_description)
+
+                              Text2(title1: t9_title, title2: t9_description)
+
+                              Text2(title1: t10_title, title2: t10_description)
+
+                              Text2(title1: t11_title, title2: t11_description)
+
+                              Text2(title1: t12_title, title2: t12_description)
+
+                              Text2(title1: t13_title, title2: t13_description)
+
+                              Text2(title1: t14_title, title2: t14_description)
+
+                              Text4(title1: t15_title, title2: t15_description, title3: t16, title4: t17)
+                        Stext(title: t18)
+                              
+
+                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

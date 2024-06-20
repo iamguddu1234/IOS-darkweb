@@ -151,7 +151,98 @@ struct I9_Digital_forensics: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        
+
+                                       
+
+
+
+                        Head(title: q1)
+
+                               Stext(title: q2)
+
+                               Text2(title1: q3, title2: q3_desc)
+
+                               
+                               Text2(title1: q4, title2: q4_desc)
+
+                               
+                               Text2(title1: q5, title2: q5_desc)
+
+                               
+                               Text2(title1: q6, title2: q6_desc)
+
+                               
+                               Text2(title1: q7, title2: q7_desc)
+
+                               
+                               Text2(title1: q8, title2: q8_desc)
+
+                               
+                               Text2(title1: q9, title2: q9_desc)
+
+                               
+                               Text2(title1: q10, title2: q10_desc)
+
+                               
+                               Text2(title1: q11, title2: q11_desc)
+
+                               
+                               Text2(title1: q12, title2: q12_desc)
+
+                               
+                               Text2(title1: q13, title2: q13_desc)
+
+                               
+                               Text2(title1: q14, title2: q14_desc)
+
+                               
+                               Text2(title1: q15, title2: q15_desc)
+
+                               
+                               Text2(title1: q16, title2: q16_desc)
+
+                               Stext(title: q17)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

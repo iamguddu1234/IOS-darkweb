@@ -185,7 +185,101 @@ struct I2_How_To_access: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        
+
+                                       
+
+                        Head(title: b1)
+
+                                Stext(title: b2)
+
+                                Text3(title1: b3, title2: b4, title3: b5)
+
+                                Text3(title1: b6, title2: b7, title3: b8)
+
+                                Text2(title1: b9, title2: b10)
+
+                                Text2(title1: b11, title2: b12)
+
+                                Text3(title1: b13, title2: b14, title3: b15)
+
+                                Text4(title1: b16, title2: b17, title3: b18, title4: b19)
+
+                                Text3(title1: b20, title2: b21, title3: b22)
+
+                                Text3(title1: b23, title2: b24, title3: b25)
+
+                                Text4(title1: b26, title2: b27, title3: b28, title4: b29)
+                        Stext(title: b30)
+                        Stext(title: b31)
+                        Stext(title: b32)
+                        
+                      
+
+                                Text3(title1: b33, title2: b34, title3: b35)
+
+                                Text3(title1: b36, title2: b37, title3: b38)
+
+                                Text3(title1: b39, title2: b40, title3: b41)
+
+                                Text3(title1: b36, title2: b37, title3: b38)
+
+                                Text3(title1: b39, title2: b40, title3: b41)
+
+                                Text3(title1: b42, title2: b43, title3: b44)
+
+                                Text3(title1: b45, title2: b46, title3: b47)
+
+                                Text3(title1: b48, title2: b49, title3: b50)
+
+                                Text3(title1: b51, title2: b52, title3: b53)
+
+                                Text4(title1: b54, title2: b55, title3: b56, title4: b57)
+                        
+                        Stext(title: b58)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

@@ -21,7 +21,7 @@ struct I7_Crypto_Tumbling: View {
     On the dark web, where illicit activities are often conducted, anonymity is highly valued. Cryptocurrencies like Bitcoin, Ethereum, or Monero are commonly used for transactions due to their decentralized nature and potential for anonymity. However, blockchain technology, which underlies most cryptocurrencies, records all transactions in a public ledger, making it possible to trace the flow of funds and link them to specific individuals or entities.
     """
     let o4 = """
-    Cryptocurrency tumbling works by breaking the link between the sender and the receiver of funds. Here\'s a simplified explanation of how it typically works:
+Cryptocurrency tumbling works by breaking the link between the sender and the receiver of funds. Here\'s a simplified explanation of how it typically works:
 """
 
     let o5 = """
@@ -109,7 +109,111 @@ struct I7_Crypto_Tumbling: View {
 
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        Head(title: o1)
+
+                              Stext(title: o2)
+
+                              Stext(title: o3)
+
+                              Stext(title: o4)
+
+                              Text2(title1: o5, title2: o5_desc)
+
+                              Text2(title1: o6, title2: o6_desc)
+
+                              Text2(title1: o7, title2: o7_desc)
+
+                              Text2(title1: o8, title2: o8_desc)
+
+                            Stext(title: o9)
+                        Stext(title: o10)
+
+
+                              Text2(title1: o11, title2: o11_desc)
+
+                              Text2(title1: o12, title2: o12_desc)
+
+                              Text2(title1: o13, title2: o13_desc)
+
+                              Text2(title1: o14, title2: o14_desc)
+
+                              Text2(title1: o15, title2: o15_desc)
+
+                              Text2(title1: o16, title2: o16_desc)
+
+                              Stext(title: o17)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

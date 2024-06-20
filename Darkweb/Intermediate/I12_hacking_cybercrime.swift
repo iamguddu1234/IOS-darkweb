@@ -110,7 +110,88 @@ struct I12_hacking_cybercrime: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        Head(title: m1)
+                        
+                        Stext(title: m2)
+                        
+                        Text2(title1: m3_title, title2: m3)
+                        
+                        Text2(title1: m4_title, title2: m4)
+                        
+                        Text2(title1: m5_title, title2: m5)
+                        
+                        Text2(title1: m6_title, title2: m6)
+                        
+                        Text2(title1: m7_title, title2: m7)
+                        
+                        Text2(title1: m8_title, title2: m8)
+                        
+                        Text2(title1: m9_title, title2: m9)
+                        
+                     
+                        Text2(title1: m12_title, title2: m12)
+                        
+                        Text2(title1: m13_title, title2: m13)
+                        
+                        Text2(title1: m14_title, title2: m14)
+                        
+                        Text2(title1: m15_title, title2: m15)
+                        
+                        Text2(title1: m16_title, title2: m16)
+                        
+                        Text2(title1: m17_title, title2: m17)
+                        
+                        Text2(title1: m18_title, title2: m18)
+                        
+                        Text2(title1: m19_title, title2: m19)
+                        
+                        Stext(title: m20)
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

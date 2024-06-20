@@ -90,7 +90,77 @@ struct A13_Vpn: View {
 
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        
+                        Head(title: aa1)
+
+                                Text2(title1: aa2_title, title2: aa2_description)
+
+                                Text2(title1: aa3_title, title2: aa3_description)
+
+                                Text2(title1: aa4_title, title2: aa4_description)
+
+                                Text2(title1: aa5_title, title2: aa5_description)
+
+                                Text2(title1: aa6_title, title2: aa6_description)
+
+                                Text2(title1: aa7_title, title2: aa7_description)
+
+                                Text2(title1: aa8_title, title2: aa8_description)
+
+                                 Text2(title1: aa9_title, title2: aa9_description)
+
+                                  Text2(title1: aa10_title, title2: aa10_description)
+
+                                   Text2(title1: aa11_title, title2: aa11_description)
+
+                                   Stext(title: aa12)
+
+
+                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

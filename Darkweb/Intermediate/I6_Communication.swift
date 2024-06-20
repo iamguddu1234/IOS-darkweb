@@ -199,7 +199,130 @@ struct I6_Communication: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        
+
+                                       
+                        Head(title: f1)
+
+                              Stext(title: f2)
+
+                              Text2(title1: f3,title2:  f3_desc)
+
+                              Text2(title1: f4,title2: f4_desc)
+
+                              Text2(title1: f5,title2:  f5_desc)
+
+                              Text2(title1: f6,title2:  f6_desc)
+
+                              
+                              Text2(title1: f7,title2: f7_desc)
+
+                              
+                              Text2(title1: f8,title2: f8_desc)
+
+                              
+
+                              
+                        Text2(title1: f10, title2:f10_desc)
+
+                              
+                        Text2(title1: f11, title2:f11_desc)
+
+                              
+                        Text2(title1: f12,title2: f12_desc)
+
+                              
+                        Text2(title1: f13, title2:f13_desc)
+
+                              
+                        Text2(title1: f14, title2:f14_desc)
+
+                              
+                        Text2(title1: f15, title2:f15_desc)
+
+                              
+                        Text2(title1: f16, title2:f17_desc)
+
+                              
+                        Text2(title1: f17, title2:f17_desc)
+
+                              
+                        Text2(title1: f18, title2:f18_desc)
+
+                              
+                        Text2(title1: f19, title2:f19_desc)
+
+                              
+                        Text2(title1: f20, title2:f20_desc)
+
+                              
+                        Text2(title1: f21, title2:f21_desc)
+
+                              
+                        Text2(title1: f22,title2: f22_desc)
+                    
+                              
+                              
+                        Text2(title1: f24, title2:f24_desc)
+                              
+                        Text2(title1: f25, title2:f25_desc)
+
+                              
+                        Text2(title1: f26, title2:f26_desc)
+
+                              
+                        Text2(title1: f27, title2:f27_desc)
+
+                              
+                        Text2(title1: f28, title2:f28_desc)
+
+                              
+                              Text2(title1: f29,title2:f29_desc)
+
+                              Stext(title: f30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

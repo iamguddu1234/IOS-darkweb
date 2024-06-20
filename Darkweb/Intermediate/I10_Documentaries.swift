@@ -137,7 +137,93 @@ struct I10_Documentaries: View {
 
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        
+
+                                       
+
+                        Head(title: j1)
+
+                               Stext(title: j2)
+
+                               Text2(title1: j3, title2: j3_desc)
+
+                               Text2(title1: j4, title2: j4_desc)
+
+                               Text2(title1: j5, title2: j5_desc)
+
+                               Text2(title1: j6, title2: j6_desc)
+
+                               Text2(title1: j7, title2: j7_desc)
+
+                               Text2(title1: j8, title2: j8_desc)
+
+                            
+
+                               Text2(title1: j10, title2: j10_desc)
+
+                               Text2(title1: j11, title2: j11_desc)
+
+                               Text2(title1: j12, title2: j12_desc)
+
+                               Text2(title1: j13, title2: j13_desc)
+
+                               Text2(title1: j14, title2: j14_desc)
+
+                               Text2(title1: j15, title2: j15_desc)
+
+                               Text2(title1: j16, title2: j16_desc)
+
+                               Text2(title1: j17, title2: j17_desc)
+
+                               Text2(title1: j18, title2: j18_desc)
+
+                               Text2(title1: j19, title2: j19_desc)
+
+                               Stext(title: j20)
+                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

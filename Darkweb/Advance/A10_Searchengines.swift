@@ -13,7 +13,7 @@ struct A10_Searchengines: View {
     Dark Web Search Engines: Introduction to dark web search engines and how to use them effectively.
     """
     let e2 = """
-    While I cannot provide a comprehensive list of the current top 10 dark web search engines, I can mention some popular ones that have been widely used in the past. However, it\'s important to note that the dark web landscape is ever-changing, and the availability and performance of search engines can fluctuate. Here are some well-known dark web search engines:
+While I cannot provide a comprehensive list of the current top 10 dark web search engines, I can mention some popular ones that have been widely used in the past. However, it\'s important to note that the dark web landscape is ever-changing, and the availability and performance of search engines can fluctuate. Here are some well-known dark web search engines:
 """
 
 //    <!-- Dark web search engines -->
@@ -89,7 +89,83 @@ struct A10_Searchengines: View {
 
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+
+                        Head(title: e1)
+
+                               Stext(title: e2)
+
+                               Text2(title1: e3, title2: e3_desc)
+
+                               Text2(title1: e4, title2: e4_desc)
+
+                               Text2(title1: e5, title2: e5_desc)
+
+                               Text2(title1: e6, title2: e6_desc)
+
+
+                       Text2(title1: e7, title2: e7_desc)
+
+
+                       Text2(title1: e8, title2: e8_desc)
+
+
+                       Text2(title1: e9, title2: e9_desc)
+
+
+                       Text2(title1: e10, title2: e10_desc)
+
+
+                       Text2(title1: e11, title2: e11_desc)
+
+
+                       Text2(title1: e12, title2: e12_desc)
+
+                        
+
+                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 

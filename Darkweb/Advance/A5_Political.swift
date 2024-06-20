@@ -73,7 +73,72 @@ struct A5_Political: View {
 
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                    
+                        
+                        Head(title: y1)
+
+                              Stext(title: y2)
+
+                              Text2(title1: y3_title, title2: y3_description)
+
+                               Text2(title1: y4_title, title2: y4_description)
+
+                                Text2(title1: y5_title, title2: y5_description)
+
+                                 Text2(title1: y6_title, title2: y6_description)
+
+                                  Text2(title1: y7_title, title2: y7_description)
+
+                                   Text2(title1: y8_title, title2: y8_description)
+
+                                    Text2(title1: y9_title, title2: y9_description)
+
+                                     Stext(title: y10)
+                              
+                        
+
+                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+         // Adjust the height of the banner as needed
+                BannerAdsView()
+            }
+        }
     }
 }
 
